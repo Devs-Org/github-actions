@@ -45,7 +45,7 @@ jobs:
             "attachments": [
               {
                 "pretext": "issue alert message",
-                "color": 'danger',
+                "color": "danger",
                 "fields": [
                   {
                     "title": "Level : ${{ needs.get-keyword.outputs.level }}",
